@@ -1,0 +1,60 @@
+name: space_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  cached: ^1.7.1
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.1.1
+  dartz: ^0.10.1
+  dio: ^5.8.0+1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_dotenv: ^5.1.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: null
+  get_it: ^8.0.3
+  gif: ^2.3.0
+  go_router: ^16.0.0
+  html: ^0.15.6
+  url_launcher: ^6.3.1
+  youtube_player_flutter: ^9.1.1
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/bold_icons/
+    - assets/images/icons/
+    - assets/images/GiFs/earth_GIF.gif
+    - .env
+  fonts:
+    - family: Space Grotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+flutter_assets:
+  assets_path:
+    - assets/images/
+    - .env/
+  output_path: lib/Core/utils
+  filename: appimages.dart
+  classname: AppImages
+  ignore_comments: true

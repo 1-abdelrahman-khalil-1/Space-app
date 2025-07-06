@@ -16,6 +16,7 @@ Inspired by the NASA app, this project aims to provide an engaging way to stay u
 - **Browser Integration**: Tapping a news card opens the full article in the device's default browser using `url_launcher`.
 - **Responsive Design**: Supports both featured and standard news cards with different aspect ratios (`16:9` for featured, `16:10` for standard).
 - **Error Handling**: Shows loading indicators and error messages if news fetching fails.
+- **Display Video For every Planet** : integrate with `youtube_player_flutter`
 - Dynamic content fetched via API using `dio`.
 - Detail pages with informative descriptions and high-resolution images.
 ---
